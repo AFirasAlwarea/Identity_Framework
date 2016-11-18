@@ -5,10 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Employees.Models;
-using Microsoft.AspNet.Identity.EntityFramework;
+using WebApplication2.Models;
 
-namespace Employees
+namespace WebApplication2
 {
     public partial class Startup
     {
@@ -64,6 +63,6 @@ namespace Employees
             //    ClientId = "",
             //    ClientSecret = ""
             //});
-               }
+        }
     }
-    }
+}
